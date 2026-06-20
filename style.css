@@ -1,0 +1,573 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-ExtraBoldItalic.eot");
+  src: url("../fonts/Nunito-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Nunito-ExtraBoldItalic.woff") format("woff"), url("../fonts/Nunito-ExtraBoldItalic.ttf") format("truetype"), url("../fonts/Nunito-ExtraBoldItalic.svg#Nunito-ExtraBoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-ExtraLight.eot");
+  src: url("../fonts/Nunito-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito-ExtraLight.woff2") format("woff2"), url("../fonts/Nunito-ExtraLight.woff") format("woff"), url("../fonts/Nunito-ExtraLight.ttf") format("truetype"), url("../fonts/Nunito-ExtraLight.svg#Nunito-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Bold.eot");
+  src: url("../fonts/Nunito-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito-Bold.woff2") format("woff2"), url("../fonts/Nunito-Bold.woff") format("woff"), url("../fonts/Nunito-Bold.ttf") format("truetype"), url("../fonts/Nunito-Bold.svg#Nunito-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-BoldItalic.eot");
+  src: url("../fonts/Nunito-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Nunito-BoldItalic.woff2") format("woff2"), url("../fonts/Nunito-BoldItalic.woff") format("woff"), url("../fonts/Nunito-BoldItalic.ttf") format("truetype"), url("../fonts/Nunito-BoldItalic.svg#Nunito-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+.turista {
+  font-family: "Nunito";
+}
+.turista .title {
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+.turista .title a {
+  color: #ed4d42;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.turista .title h2 {
+  font-weight: 800;
+  margin: 10px;
+}
+.turista .header .navbar {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  width: 98%;
+  background-color: transparent;
+  border: none;
+  margin-top: 23px;
+}
+.turista .header .navbar .navbar-header a img {
+  height: 45px;
+  margin-top: -12px;
+}
+.turista .header .navbar .nav li a {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+}
+.turista .header .navbar .nav li a:hover {
+  background: none;
+  border: none;
+  color: #9d9da2;
+  cursor: pointer;
+}
+.turista .header .navbar .nav .dropdown .dropdown-menu li a {
+  background-color: #ffffff;
+  color: #1c1c1c;
+  text-align: center;
+}
+.turista .header .carousel {
+  position: relative;
+}
+.turista .header .carousel .carousel-inner .item img {
+  width: 100%;
+}
+.turista .header .carousel .carousel-caption {
+  top: 37%;
+}
+.turista .header .carousel .carousel-caption h1 {
+  font-weight: 800;
+  font-size: 73px;
+}
+.turista .header .carousel .carousel-caption p {
+  font-size: 18px;
+  width: 65%;
+  font-weight: 600;
+  margin-left: 160px;
+}
+.turista .header .carousel .carousel-control {
+  top: 0px;
+}
+.turista .header .carousel .carousel-control .arrow {
+  margin: 300px 11px 0px 25px;
+  border: 1px solid #ffffff;
+  padding: 25px 30px 24px 34px;
+  border-radius: 100%;
+}
+.turista .header .carousel .carousel-control .arrow i {
+  font-size: 10px;
+}
+.turista .booking-section {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+.turista .booking-section__teaser {
+  border: 1px solid #f9f9f9;
+  padding: 10% 10px;
+}
+.turista .booking-section__teaser:hover {
+  box-shadow: 0px 0px 10px;
+  transition: 1s;
+  cursor: pointer;
+}
+.turista .booking-section__icon i {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: #ed4d42;
+  font-size: 23px;
+  padding-top: 19px;
+  color: #ffffff;
+}
+.turista .booking-section__content h3 {
+  font-weight: 800;
+}
+.turista .booking-section__content p {
+  font-weight: 500;
+  font-size: 15px;
+}
+.turista .choose-us {
+  margin-top: 8%;
+}
+.turista .choose-us__package {
+  padding: 20% 0 0 10%;
+}
+.turista .choose-us__icon {
+  padding-bottom: 10%;
+}
+.turista .choose-us__icon i {
+  border: 1px solid #ed4d42;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: #ed4d42;
+}
+.turista .choose-us__icon h3 {
+  font-weight: 600;
+}
+.turista .choose-us__icon p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.turista .stats {
+  padding-top: 8%;
+}
+.turista .stats__teaser {
+  text-align: center;
+  border-right: 1px solid #e9e9e9;
+}
+.turista .stats__icon-content i {
+  font-size: 30px;
+  color: #ed4d42;
+}
+.turista .stats__icon-content h3 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.turista .stats__icon-content p {
+  font-weight: 500;
+}
+.turista .popular {
+  margin-top: 8%;
+}
+.turista .popular__place {
+  background-color: #ffffff;
+  border: 1px solid #f6f6f6;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.turista .popular__image img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  height: 241px;
+}
+.turista .popular__image img:hover {
+  box-shadow: 0px 0px 10px;
+  transition: 1s;
+  cursor: pointer;
+}
+.turista .popular__content {
+  position: relative;
+  padding-left: 10px;
+}
+.turista .popular__content h3 {
+  font-weight: 600;
+}
+.turista .popular__icon {
+  position: absolute;
+  left: 311px;
+  top: 267px;
+}
+.turista .popular__icon i {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: #ed4d42;
+  color: #f9f9f9;
+  text-align: center;
+  padding-top: 11px;
+}
+.turista .popular__icon i:hover {
+  color: gray;
+  transition: 1s;
+  cursor: pointer;
+}
+.turista .package-section .carousel-indicators {
+  top: 105%;
+}
+.turista .package-section .carousel-indicators .active {
+  background-color: #ed4d42;
+}
+.turista .package-section__teaser {
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+}
+.turista .package-section__image img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.turista .package-section__content {
+  position: relative;
+  padding: 0 0 20px 20px;
+}
+.turista .package-section__content h3 {
+  font-weight: 800;
+}
+.turista .package-section__content i {
+  color: #fec83c;
+}
+.turista .package-section__content p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #9d9da2;
+}
+.turista .package-section__content .clock {
+  font-weight: 600;
+}
+.turista .package-section__content .clock i {
+  color: #ed4d42;
+}
+.turista .package-section__content button {
+  background-color: #ed4d42;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.turista .package-section__price {
+  position: absolute;
+  top: 255px;
+  left: 300px;
+}
+.turista .package-section__price h5 {
+  font-weight: 600;
+  color: #ed4d42;
+}
+.turista .image-section {
+  margin-top: 10%;
+}
+.turista .image-section img {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+}
+.turista .image-section img:hover {
+  box-shadow: 0px 0px 10px;
+  transition: 1s;
+  cursor: pointer;
+}
+.turista .tour-gallery {
+  margin-top: 8%;
+  width: 100%;
+}
+.turista .tour-gallery__place {
+  width: 24%;
+  display: inline-block;
+  position: relative;
+}
+.turista .tour-gallery__place img {
+  width: 110%;
+  transition: 1s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.turista .tour-gallery__place img:hover {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+.turista .tour-gallery__place p {
+  position: absolute;
+  bottom: 4px;
+  left: 17px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #ed4d42;
+}
+.turista .blog {
+  margin-top: 8%;
+}
+.turista .blog__item {
+  background-color: #ffffff;
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.turista .blog__image img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.turista .blog__image img:hover {
+  box-shadow: 0px 0px 10px;
+  transition: 1s;
+  cursor: pointer;
+}
+.turista .blog__image h3 {
+  font-weight: 600;
+  padding: 0px 10px 10px 10px;
+}
+.turista .blog__icon {
+  padding: 0 20px 15px 20px;
+}
+.turista .blog__icon h4 {
+  color: #9d9da2;
+  font-weight: 600;
+  display: inline-block;
+  padding-right: 15px;
+}
+.turista .blog__icon h4 i {
+  color: #ed4d42;
+  padding-right: 5px;
+}
+.turista .testimonail .custom-test {
+  background: url("/image/section-bg.jpg") no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 0px;
+  position: relative;
+  z-index: 1;
+}
+.turista .testimonail .custom-test .item {
+  height: 640px;
+}
+.turista .testimonail .custom-test .carousel-caption {
+  top: 10%;
+}
+.turista .testimonail .custom-test .carousel-caption .card .teaser-customer {
+  margin: 48px 36px 30px 29px;
+  padding: 122px 15px 35px 15px;
+  width: 100%;
+  margin-bottom: 75px;
+  transition: 1s;
+}
+.turista .testimonail .custom-test .carousel-caption .card .teaser-customer:hover {
+  background: #ed4d42;
+  border-radius: 5px;
+  transition: 1s;
+  cursor: pointer;
+}
+.turista .testimonail .custom-test .carousel-caption .card .teaser-customer img {
+  width: 41%;
+  height: 92px;
+  border-radius: 50%;
+  transition: 1s;
+}
+.turista .testimonail .custom-test .carousel-caption .card .teaser-customer h3 {
+  font-size: 18px;
+  color: #ffffff;
+  width: 100%;
+  margin-left: 1%;
+  margin-top: -41%;
+  font-weight: 800;
+}
+.turista .testimonail .custom-test .carousel-caption .card .teaser-customer h4 {
+  font-size: 22px;
+  font-weight: 800;
+  margin-left: 5%;
+}
+.turista .testimonail .custom-test .carousel-caption .card .teaser-customer i {
+  font-size: 17px;
+  color: gold;
+  padding: 3px;
+}
+.turista .testimonail .custom-test .carousel-caption .card .teaser-customer i:hover {
+  color: gray;
+}
+.turista .testimonail .custom-test .arrow {
+  margin: 388px 0px 0px 0px;
+  border: 1px solid #ffffff;
+  padding: 17px 19px 17px 18px;
+  border-radius: 37px;
+  background: #ffffff;
+  color: red;
+}
+.turista .testimonail .custom-test .arrow i {
+  font-size: 10px;
+}
+.turista .teaser-form {
+  margin-top: 8%;
+}
+.turista .teaser-form__input .click {
+  padding: 14px 35px;
+  margin: 19px 1px;
+  color: #ffffff;
+  background: #ed4d42;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+.turista .teaser-form__input .click:hover {
+  background: #ffffff;
+  color: #ed4d42;
+  border: 1px solid #ed4d42;
+  transition: 1s;
+}
+.turista .teaser-form__item .control {
+  height: 47px;
+  margin: 8px 15px 6px 2px;
+  padding: 0px 0px 0px 6px;
+  font-size: 17px;
+  width: 46%;
+  background: #f1f6f9;
+  border: 1px solid #f1f6f9;
+  font-weight: 600;
+}
+.turista .teaser-form__item .message {
+  height: 47px;
+  padding: 5px 13px 3px 6px;
+  font-size: 17px;
+  width: 96%;
+  margin-top: 22px;
+  background: #f1f6f9;
+  border: 1px solid #f1f6f9;
+}
+.turista .teaser-form__item .comment {
+  height: 96px;
+  margin-top: 10px;
+  padding: 19px 0px 45px 11px;
+  font-size: 17px;
+  width: 96%;
+  background: #f1f6f9;
+  border: 1px solid #f1f6f9;
+}
+.turista .teaser-form__details {
+  display: inline-flex;
+  padding: 10px;
+}
+.turista .teaser-form__icon a i {
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px 0 0;
+  border-radius: 100%;
+  background: #ed4d42;
+  color: #ffffff;
+  padding: 13px 0 0 13px;
+}
+.turista .teaser-form__icon a i:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #ed4d42;
+}
+.turista .teaser-form__content h4 {
+  font-weight: 600;
+  color: #9d9da2;
+}
+.turista .teaser-form__content p {
+  font-weight: 600;
+  color: #9d9da2;
+}
+.turista .google-map {
+  margin-top: 65px;
+  padding: 0px;
+}
+.turista .google-map__veiw iframe {
+  width: 100%;
+  height: 400px;
+}
+.turista .footer {
+  margin-top: -21px;
+  margin-bottom: 20px;
+  background-color: #1c1c1c;
+  padding-bottom: 50px;
+}
+.turista .footer__content {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+.turista .footer__content ul li {
+  list-style: none;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.turista .footer__content ul li a {
+  text-decoration: none;
+  transition: 1s;
+  color: rgba(128, 128, 128, 0.6);
+}
+.turista .footer__content ul li a:hover {
+  color: #00c3ff;
+  text-decoration: none;
+  transition: 1s;
+}
+.turista .footer__content h3 {
+  margin-left: 37px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.turista .footer__content h3 span {
+  color: #ed4d42;
+  font-size: 30px;
+}
+.turista .footer__content p {
+  padding-right: 20px;
+  padding-left: 40px;
+  color: rgba(128, 128, 128, 0.6);
+  font-weight: bold;
+}
+.turista .footer .teaser-bottom {
+  border-top: 1px solid rgba(128, 128, 128, 0.6);
+}
+.turista .footer .teaser-bottom__final {
+  color: rgba(128, 128, 128, 0.6);
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+.turista .footer .teaser-bottom__final a {
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.6);
+  padding-left: 10px;
+  transition: 0.5s;
+}
+.turista .footer .teaser-bottom__final a i {
+  margin-right: 5px;
+  transition: 0.5s;
+}
+.turista .footer .teaser-bottom__final a:hover {
+  color: #00c3ff;
+  cursor: pointer;
+}
+
+@media (min-width: 370px) and (max-width: 767px) {
+  .turista {
+    width: 100%;
+    padding: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
